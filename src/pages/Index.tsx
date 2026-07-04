@@ -137,7 +137,7 @@ const Index = () => {
       );
 
       if (response.status === 200) {
-        alert("");
+        alert("Obrigado por enviar mensagem! Responderei em breve.");
         setName("");
         setEmail("");
         setPhone("");
