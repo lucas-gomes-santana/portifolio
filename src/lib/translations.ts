@@ -164,6 +164,14 @@ export const projectsData = {
       image: "ChatBot-da-FURIA.png",
       link: "https://landing-page-para-a-furia.vercel.app/",
     },
+    {
+      title: "Mulheres em Movimento",
+      description:
+        "Site para ONG sem fins lucrativos que presta assistência psicológica, jurídica e outros serviços para mulheres em situação de vulnerabilidade",
+      tools: ["NextJs", "TailwindCSS", "Typescript"],
+      link: "https://www.mulheresemmovimento.org.br/",
+      image: "mulheres_em_movimento.jpg",
+    },
   ],
   en: [
     {
@@ -214,6 +222,14 @@ export const projectsData = {
       tools: ["React", "Javascript"],
       image: "ChatBot-da-FURIA.png",
       link: "https://landing-page-para-a-furia.vercel.app/",
+    },
+    {
+      title: "Women in Motion",
+      description:
+        "Website for a non-profit NGO that provides psychological, legal, and other services to women in vulnerable situations",
+      tools: ["NextJs", "TailwindCSS", "Typescript"],
+      link: "https://www.mulheresemmovimento.org.br/",
+      image: "mulheres_em_movimento.jpg",
     },
   ],
 };
