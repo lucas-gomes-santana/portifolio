@@ -1,3 +1,5 @@
+import { link } from "fs";
+
 export const translations = {
   "pt-BR": {
     nav: {
@@ -172,6 +174,14 @@ export const projectsData = {
       link: "https://www.mulheresemmovimento.org.br/",
       image: "mulheres_em_movimento.jpg",
     },
+    {
+      title: "Face-api.js Cosine Similarity version",
+      description:
+        "Versão modificada por mim do projeto face-api.js desenvolvido originalmente por Vincent Mühler. A modificação é usada no projeto C.E.R.F",
+      link: "https://github.com/lucas-gomes-santana/face-api.js-cosine-similarity",
+      tools: ["Typescript", "TensorFlow.Js"],
+      image: "face-api-js.jpg",
+    },
   ],
   en: [
     {
@@ -230,6 +240,14 @@ export const projectsData = {
       tools: ["NextJs", "TailwindCSS", "Typescript"],
       link: "https://www.mulheresemmovimento.org.br/",
       image: "mulheres_em_movimento.jpg",
+    },
+    {
+      title: "Face-api.js Cosine Similarity version",
+      description:
+        "A version of the face-api.js project—originally developed by Vincent Mühler that I have modified. This modification is used in my C.E.R.F. project.",
+      link: "https://github.com/lucas-gomes-santana/face-api.js-cosine-similarity",
+      tools: ["Typescript", "TensorFlow.Js"],
+      image: "face-api-js.jpg",
     },
   ],
 };
